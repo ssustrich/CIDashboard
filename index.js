@@ -3,7 +3,7 @@ var app = express();
 var bodyParser = require('body-parser');
 var jiraUsername = "plugh";
 var jiraPassword = "qwerty";
-var jiraServer = "foobar.com"
+var jiraServer = "foobar.com";
 var request = require('request');
 
 app.use(bodyParser.json())
